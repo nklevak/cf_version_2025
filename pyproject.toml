@@ -1,0 +1,19 @@
+[project]
+name = "fyp_rep"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Nastasia Klevak", email = "nkleva@gmail.com"},
+]
+dependencies = ["numpy>=2.0.2", "pandas>=2.3.2", "argparse>=1.4.0"]
+requires-python = ">=3.9"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true

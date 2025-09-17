@@ -163,3 +163,5 @@ cython_debug/
 
 # filetypes / folders
 */data/*
+.DS_store
+**/.DS_store

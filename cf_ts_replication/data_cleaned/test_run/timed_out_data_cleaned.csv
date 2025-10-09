@@ -1,0 +1,13 @@
+"","subj_id","game_type","num_timed_out","num_not_timed_out","num_NA","total_trials","prop_timed_out","flagged_time_outs","flagged_few_trials","flagged_has_nas"
+"1",4,"digit_span",7,143,0,150,0.0466666666666667,FALSE,FALSE,FALSE
+"2",4,"rest_task",24,315,0,339,0.0707964601769911,FALSE,FALSE,FALSE
+"3",4,"spatial_recall",15,135,0,150,0.1,FALSE,FALSE,FALSE
+"4",5,"digit_span",5,145,0,150,0.0333333333333333,FALSE,FALSE,FALSE
+"5",5,"rest_task",134,216,0,350,0.382857142857143,FALSE,FALSE,FALSE
+"6",5,"spatial_recall",8,142,0,150,0.0533333333333333,FALSE,FALSE,FALSE
+"7",7,"digit_span",3,147,0,150,0.02,FALSE,FALSE,FALSE
+"8",7,"rest_task",28,140,0,168,0.166666666666667,FALSE,FALSE,FALSE
+"9",7,"spatial_recall",2,148,0,150,0.0133333333333333,FALSE,FALSE,FALSE
+"10",8,"digit_span",34,116,0,150,0.226666666666667,FALSE,FALSE,FALSE
+"11",8,"rest_task",77,17,0,94,0.819148936170213,FALSE,FALSE,FALSE
+"12",8,"spatial_recall",50,100,0,150,0.333333333333333,FALSE,FALSE,FALSE

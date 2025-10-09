@@ -1,0 +1,13 @@
+"","subj_id","trial_type","avg_accuracy"
+"1",4,"ds_practice_response",1
+"2",4,"rt_practice_trials",0.5
+"3",4,"sr_practice_response",1
+"4",5,"ds_practice_response",0.75
+"5",5,"rt_practice_trials",0.25
+"6",5,"sr_practice_response",0
+"7",7,"ds_practice_response",0.25
+"8",7,"rt_practice_trials",0.75
+"9",7,"sr_practice_response",1
+"10",8,"ds_practice_response",0.75
+"11",8,"rt_practice_trials",0
+"12",8,"sr_practice_response",0

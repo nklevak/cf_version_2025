@@ -1,0 +1,93 @@
+---
+title: "pre-registration-doc"
+output: html_document
+date: "2025-10-09"
+---
+## Introduction
+
+This is the pre-registration for a slightly-changed replication of a previous pilot study ("the effect of task switching on cognitive fatigue"). 
+
+### QUESTIONS OF INTEREST:
+1) Is there a post-error increase in fatigue? i.e. is accuracy a significant negative estimator for subsequent rest time?
+2) When does task switching reduce fatigue, if ever? i.e. how does performance differ in the block following a switch vs a non-switch, and how long is the subsequent self-paced rest (in comparison)
+3) Is task switching acted upon as rejuvenating? i.e. will rest time when cued that the next block will be a switch be less than when cued the next block will be a stay
+4) [new] Is there a clear relationship between rest time in a given SPR and following performance?
+
+**stimuli, procedures, and challenges:** 
+
+**task repository link:** <>
+
+**analysis repository link:** <>
+
+**CCN paper link:** <>
+
+**link to online task:** <>
+
+**link to my data pre-processing code:** <>
+
+**link to my planned analysis code pipeline:** <>
+
+**link to OSF preregistration:** <>
+
+## Methods
+
+### Power Analysis
+
+A power analysis was not possible (without simulations) due to a lack of information in the original paper. In the original paper the number of participants for experiment 1 (which examined generalization for positive/negative tones) was 22, while in the first replication the number of participants was 20. Since both of these got significant but opposing results, I will also do an n of 22 (just like the original paper).
+
+### Planned Sample
+
+The planned sample size is 22 participants on prolific. They will be sampled on prolific continuously until 22 participants take the study. The sampling demographics will be the demographics of Prolific, but it is unclear what exactly they will be. The only preselection rule is that participants answer "no" when asked if they have hearing difficulties, as this is an auditory sound recognition study. 
+
+### Materials
+
+All materials - can quote directly from original article - just put the text in quotations and note that this was followed precisely.  Or, quote directly and just point out exceptions to what was described in the original article.
+
+For this rescue and task, I will need to develop code on prolific for an online task version. This online task will be a behavioral task that uses sounds with various frequencies. The frequencies of the positive/negative tones (counterbalanced among participants) are 300 and 700 Hz, the neutral frequency tone is 500 Hz, and all other frequencies for the generalization stage are (-100, -60, -20,  -5, 5, 20, 60, 100) Hz around the positive and negative tones. The random tones for the generalization phase are 480, 500, 520, 880, 900, 920 Hz.
+
+### Procedure	
+
+From the paper regarding the acquisition stage: "The experiment consisted of two iterated parts, an acquisition stage—designed to assign valence of gain versus loss to two different tones; and a generalization stage—designed to test differences in the generalization to the two tones. For the acquisition stage, subjects were instructed that in each trial, they would hear one of three tones (300, 500, or 700 Hz, for 200 ms); one tone would gain them money—if they pressed one of two keys after it (termed “positive” tone); one tone would lose them money—unless they pressed the other key after it (termed “negative” tone, because it is a negative reinforcer), and one tone had no outcome independent of what was pressed or not (“neutral”). The key assignment was counterbalanced across subjects. Subjects had to learn by trial-and-error which tone is the positive and which is the negative, and had 2.5 s following the tone presentation to press a key, and then received visual feedback telling them if they earned or lost in the trial. In addition, there were pavlovian trials (classical conditioning), in which the positive tone resulted in gain independent of what was pressed, and the negative tone resulted in loss independent of what was pressed. Subjects were informed by the appearance of the word “helpless” on the screen. The acquisition stage comprised of 24% instrumental negative, 24% instrumental positive, 10% pavlovian negative, 10% pavlovian positive, and 32% neutral. Negative and positive tones were 300 and 700 Hz, counterbalanced across subjects, and the neutral tone was 500 Hz. There were 100 trials overall in the acquisition stages. Each loss and gain was of 0.5 Israeli shekels (∼15 US cents)." This was followed precisely except for the following changes: 1) participants were told to press the space bar when they heard the neutral tone (although they did not receive feedback or changes in their bonus regardless of if they were correct or not), 2) the acquisition stage comprised of: 27% instrumental negative, 27% instrumental positive, 9% pavlovian negative, 9% pavlovian positive, and 27% neutral, and 3) the bonus was \$0.40 USD, not $0.15.
+
+From the paper regarding the generalization stage: "Participants were informed when the acquisition stage was over and that a new different stage begins. They were not informed in any way that this is a generalization stage or that this is the purpose of the study, and moreover, we questioned the subjects after the experiments and none had an idea that generalization was the task. In this stage, subjects were instructed that there would be many more tones. In each trial, if they hear the positive/negative tone, they should press the same key that was previously associated with it. However, if they hear a tone that is not the exact same tone as either the positive or the negative tone, they should press the “middle” key. They were informed that they would gain money for a correct press (either pressing the appropriate key for a negative or positive tone, or the middle key for a different tone), or lose the same amount for any mistake (pressing the positive/negative keys for a different tone, or the middle key for a positive/negative tone). In this stage, we forced the subject to choose a key and press by imposing a big loss (10 times the amount of regular loss) for no response. There was no feedback reported to the subjects in this generalization stage, to avoid any changes in valence of the tones that was acquired during the acquisition stage." This was followed precisely except that: 1) the loss incurred for no press was the typical bonus amount ($0.40) and 2) if participants didn't respond on time, feedback appeared in bright red telling them to go faster next time and showing them that they lost some money.
+
+From the paper: "Notice that although we keep calling the original tones positive/negative tones, these two tones have completely identical requirements and outcomes in this stage and therefore should entail identical decision-making policies. We keep these names for ease and clarity of terminology because they were previously associated with positive/negative outcomes. The generalization stage comprised of 14% of the positive tone, 14% of the negative tone, and 72% of other tones (i.e., that required a press on the middle key). Of these other tones, 14% were “control” tones that are far away from the original tones (80, 100, 100, 120, 480, 500, 500, 520, 880, 900, 900, 920 Hz), and 58% were tones that were closer to the original (positive and negative) tones, [−100, −60, −20, −5, +5, +20, +60, +100] from 300 and 700 Hz. There were 84 trials overall in the generalization stage." This was followed precisely except 1) control tones around 100 Hz were taken out due to online hearability concerns, and 2) the generalization stage comprised of 12.5% of the positive tone, 12.5% of the negative tone, 25% of the surround tones (tones closer to the original), and the rest were control tones.
+
+From the paper: "The acquisition and generalization stages appeared three times consecutively in a loop, to keep the original tones reinforced and avoid extinction effects." In our rescue, this was 4 times in a loop instead.
+
+The differences in my rescue procedure from the initial paper procedure are that, in the original paper, they "re-called the same participants and performed the same experiment, with an identical acquisition stage, but this time the generalization stage had tones that are [−100, −60, −20, −5, +5, +20, +60, +100 Hz] around the 500 Hz neutral tone, without the tones surrounding the positive/negative tones" in order to "find the “neutral” generalization curve." I will not do this part, as I am not sure if recalling participants is as feasible on prolific.
+
+Another thing I likely will not do (the original replication also didn't do this) but was done in the paper was, "We repeated the experiment with a new set of participants (n = 14), but this time compensating for possible loss-aversion behavior. We tested our subjects for loss-aversion before the experiment (Tom et al., 2007). Each subject was presented with a series of choices of “gaining X money in 0.5 probability and losing Y money in 0.5 probability,” and had to accept/reject the offer. Subjects were told that soon after the test is over the computer would randomly pick a single offer they had accepted and that, following a “virtual coin toss,” they would actually gain or lose the amount of money noted in that particular offer. X and Y were varied over a range of 5–20 to create a matrix of 256 binary choices. We then fitted logistic regressions with accept/reject choices as dependent variables and the size of potential gain and loss as independent variables. The loss aversion was computed as λ= −βloss/βgain, which is similar to loss-aversion in prospect theory with the simplifying common assumptions of linear value function and identical weights for 0.5 probabilities. The median in our subjects (n = 11) was found to be 1.5 and the mean was 1.7, similar to other reports in the literature (Tom et al., 2007; Sokol-Hessner et al., 2009). In the experiment, we chose to use a robust loss-aversion factor of 2 (λ = 2, a gain of twice the loss, i.e., 1 shekel of gain and 0.5 shekel of loss)." Instead I will focus on the main experiment.
+
+### Controls
+
+Since the replication found that it was more difficult for participants to learn during acquisition in the online version, I added feedback after the neutral tone that says "neutral!," as well as "correct" and "incorrect" feedback (instead of just the bonus amount, like what the replication did). 
+
+For attention checks and to make sure participants could truly hear the audio, I added an unmute reminder at the beginning as well as several questions asking them if they can hear specific sounds. If people selected no on more than 1 of those questions, I will exclude them. 
+
+### Analysis Plan
+
+For data exclusion: I auto-excluded participants who, on prolific, did not answer no when asked if they have hearing difficulties. I will exclude participants who answered "I cannot hear this well" on more than 1 of my 3 sound checking questions. I will also exclude participants who do not press keys on more than 50% of the questions expecting a response (i.e. the positive/negative tones during acquisition, and all of the generalization questions). 
+
+To quantify the generalization rates for individual subject, I will:
+
+1) In the generalization stage, measure the drop in response rate per 1 Hz of tone (which is the slope of the generalization curve) for the surround tones of both the positive and negative tones. I will then compare these positive/negative slopes using a paired t-test (within-subject). I will then look at all comparisons that are reported as significant and check if they are also significant at the same level using nonparametric Wilcoxon signed rank test. Next, I will likely use a "three-way ANOVA to check the effects and interactions of reinforcement type (negative/positive/neutral), the frequency distance (in Hz) from the original tone [0, 5, 20, 60, 100] and the side/direction of the frequency change [higher/lower than the original tone]".
+
+2) In the generalization stage, I will "fit a multinomial logistic regression for each subject using all single trial (0/1—correct/incorrect) responses...In this model, the coefficient β1 describes the contribution of the reinforcement type to the response. The higher β1 is, the narrower the generalization curve is." I will then compare the β1 coefficients of positive and negative data using t tests for each subject, and will incorporate the p-values in "Fisher's combined p-value calculation to obtain an overall p-value for the population."
+
+To understand the acquisition stage, I will qualitatively look at the rate of acquisition on average to better understand how well participants understood the task and were able to learn the tone/valence correspondence.
+
+**Clarify key analysis of interest here**  
+
+The key analysis of interest is the paired t-test between the postively valenced and negatively valenced generalization curves. In the original paper they got a p < 0.001 for their paired t-test (they did not provide a t value), showing that there was significantly more generalization for the negative tone than the positive one. In the 1st replication, they got a t = 4.363 in their linear model comparison, but the positive generalization was larger than the negative one (the opposite of the first study).
+
+
+### Methods Addendum (Post Data Collection)
+
+#### Actual Sample
+  The actual sample ended up being 21 participants. It was 22 initially, as planned, but 1 participants had to be excluded due to prior exclusion criteria (answering that they couldn't hear the sound on more than 1 of the 3 control sound questions).
+
+#### Differences from pre-data collection methods plan
+  None.
+
+## Results

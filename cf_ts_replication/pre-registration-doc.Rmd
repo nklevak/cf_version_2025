@@ -43,15 +43,40 @@ Using G*Power, the effect sizes for our hypotheses from our last study, an alpha
 
 3) previous effect size for the effect of the switch cue on rest length was small (std. beta of 0.08), so we put 0.02 as the desired effect size (rounding up to a small effect size). Using the linear multiple regression statistical test type, this gave us a sample size of 311. (This is an approximation due to the complexity of our mixed-effects structure which G*Power does not account for).
 
-While these results are simplified due to G*Power's limitations, we took this into account when deciding to use a sample of 150 people. 
+While these results are simplified due to G*Power's limitations, we took this and resources into account when deciding to use a sample of 150 people.
 
 ### Planned Sample
 
-The planned sample size is __ participants on prolific. They will be sampled on prolific continuously until __ participants take the study. The sampling demographics will be the demographics of Prolific, but it is unclear what exactly they will be. 
+The planned sample size is __ participants on prolific. They will be sampled on prolific continuously until __ participants take the study (should i say until that many remain post-exclusion???). The sampling demographics will be the demographics of Prolific, but it is unclear what exactly they will be. 
 
-The pre-selection criteria are: 
+The pre-selection criteria are:
+- Participants have to be fluent in English.
+- Participants need to select that they have no issues seeing colors.
+- Participants have to have an approval rate of 99-100
 
 ### Task Design	
+
+With some changes, this methods description is taken from the CCN extended abstract linked above: 
+
+We developed a novel paradigm to be conducted online on Prolific for approximately 55 minutes. After an instructional period, participants are taken through a training phase of three "games": a spatial recall game (memorizing 4 squares flashing on a 4x4 grid), a digit span game (memorizing 4 digits flashing on screen), and a low effort rest game (clicking the digit corresponding to a given shape, with no memory required). These training phases were 4 trials per game.
+
+The spatial recall and digit span games are referred to as Game A and Game B (counterbalanced across participants). In the main phase after training, participants are shown 10 blocks of the games in the order: ABABBABAAB. Each block consists of 3 epochs (10 trials of a given task per epoch) of the same game, and every epoch was followed by a self-paced rest (SPR) period (described below in more detail). Here, each SPR period is preceded by a cue that signals whether, in the following epoch, participants would be playing the same game (a task stay) or a different game (a task switch). 
+
+Importantly, this experiment incorporates the aforementioned SPR periods, each consisting of 20 1.525 second trials of the low effort rest game. Participants could terminate SPR periods at their discretion. Following the conclusion of the 10 blocks, participants finish the rest trials they had skipped to equalize the length of the experiment. Crucially, the decision to remain in rest is costly. Participants are told they will lose points from an initial 600 point endowment for every trial they remained in rest, and that the total points remaining after task completion would be used to calculate a monetary bonus ($2). Thus, in contrast to prior work which has relied primarily on subjective (self-reported) fatigue, rest duration–-indexing participants' willingness to incur a cost to continue resting—-is used here as an objective measure of cognitive fatigue.
+
+Here are more details about the timings for the spatial recall task and the digit span task:
+digit span:
+    Sequence Presentation: 1.9 seconds (4 digits × (275ms display + 200ms gap between digits))
+    Response Window: 4.2 seconds maximum
+    total per trial: 6.1 seconds max
+spatial recall:
+    initial stimulus (empty grid): 100 ms
+    Sequence Presentation: 2.06 seconds (4 squares × (315ms display + 200ms gap))
+    Response Window: 4.2 seconds maximum
+    total per trial: 6.36 seconds max
+self paced rest:
+    total per trial: 1.525 seconds (1350ms display + 175ms clear screen)
+*In the training phase, each trial of each game (and the rest task) was followed by a 1s feedback period.*
 
 
 ### Analysis Plan

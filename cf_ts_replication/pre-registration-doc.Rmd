@@ -79,11 +79,20 @@ self paced rest:
 *In the training phase, each trial of each game (and the rest task) was followed by a 1s feedback period.*
 
 
-### Analysis Plan
+### Analysis
 
-For data exclusion: 
+## exclusion criteria
+For data exclusion, we will exclude participants:
+1. with an overall average accuracy below 30% on both tasks (digit span and spatial recall) as this signifies a lack of attention/trying
+2. with an overall average accuracy above 95% on both tasks as this would prevent us from seeing error-effects
+3. with incomplete data
+4. who complete the experiment too quickly (as this would suggest that they may be doing the experiment with help from an AI agent)
+- Prolific has a feature that auto-rejects responses they believe are not humanly possible
+- looking at our previous pilot with 84 participants, the minimum response time with non-excluded data was: ______ so we will use that as a lower boundary for exclusion.
 
-To quantify ______, I will:
+
+## analysis plan
+
 
 
 ### Methods Addendum (Post Data Collection)
